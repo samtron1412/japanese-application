@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>vn.rivercrane</groupId>
+  <artifactId>rc-el-back</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>Rivercrane E-Learning</name>
+  
+  <modules>
+  	<module>rc-el-common</module>
+  	<module>rc-el-dao</module>
+  	<module>rc-el-service</module>
+  	<module>rc-el-api</module>
+  	<module>rc-el-bom</module>
+  </modules>
+  
+    <properties>
+        <spring.version>3.0.5.RELEASE</spring.version>
+        <jersey.version>1.14</jersey.version>
+    </properties>
+  
+   	<repositories>
+   	 	<repository>
+            <id>maven2-repository.java.net</id>
+            <name>Java.net Repository for Maven</name>
+            <url>http://download.java.net/maven/2/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>eclipseLinkRepo</id>
+            <name>Eclipse Link maven repo</name>
+            <url>http://download.eclipse.org/rt/eclipselink/maven.repo</url>
+        </repository>
+        
+    </repositories>
+    
+</project>
